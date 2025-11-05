@@ -1,0 +1,193 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Iphone 16 pro max 256GB",
+      "describe": "Iphone 16 pro max 256GB 16GB RAM",
+      "brand": "Apple",
+      "price": 1200,
+      "category": "technology",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-pro-max-finish-select-2024"
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S24 Ultra",
+      "describe": "Samsung Galaxy S24 Ultra 512GB 12GB RAM",
+      "brand": "Samsung",
+      "price": 1100,
+      "category": "technology",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-s928bzkamea/gallery/levant-galaxy-s24-ultra-sm-s928bzkamea-thumb-538706486"
+    },
+    {
+      "id": 3,
+      "title": "MacBook Pro M3 14-inch",
+      "describe": "Apple MacBook Pro M3 chip 14-inch 512GB SSD",
+      "brand": "Apple",
+      "price": 2200,
+      "category": "technology",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-silver-select-202310"
+    },
+    {
+      "id": 4,
+      "title": "Sony WH-1000XM5",
+      "describe": "Wireless noise-cancelling headphones",
+      "brand": "Sony",
+      "price": 380,
+      "category": "technology",
+      "image": "https://m.media-amazon.com/images/I/61uMikf7VZL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "PlayStation 5 Slim",
+      "describe": "Sony PlayStation 5 Slim Digital Edition 1TB",
+      "brand": "Sony",
+      "price": 600,
+      "category": "technology",
+      "image": "https://m.media-amazon.com/images/I/61vGQNUEsGL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Men's Classic Leather Jacket",
+      "describe": "Genuine leather biker jacket with zip pockets",
+      "brand": "Zara",
+      "price": 250,
+      "category": "men",
+      "image": "https://static.zara.net/photos///2024/V/0/2/p/3047/301/800/2/w/1126/3047301800_2_1_1.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Men's Running Shoes",
+      "describe": "Lightweight breathable sneakers for training",
+      "brand": "Nike",
+      "price": 130,
+      "category": "men",
+      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4a4e4d47-13cb-41b3-8c40-9ef4223c4a86/air-zoom-pegasus-41-mens-road-running-shoes.png"
+    },
+    {
+      "id": 8,
+      "title": "Men's Smart Watch",
+      "describe": "Waterproof smartwatch with heart rate monitor",
+      "brand": "Amazfit",
+      "price": 160,
+      "category": "men",
+      "image": "https://m.media-amazon.com/images/I/61qfUF1unXL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Men's Casual T-Shirt",
+      "describe": "100% cotton T-shirt with graphic print",
+      "brand": "H&M",
+      "price": 25,
+      "category": "men",
+      "image": "https://lp2.hm.com/hmgoepprod?set=source[/9c/f1/9cf1b8236e79d13c0ebf6c1466dfb47b2d4c28a3.jpg],origin[dam],category[men_tshirt]"
+    },
+    {
+      "id": 10,
+      "title": "Men's Denim Jeans",
+      "describe": "Slim fit blue jeans with stretch fabric",
+      "brand": "Levi's",
+      "price": 90,
+      "category": "men",
+      "image": "https://lsco.scene7.com/is/image/lsco/005140216-front-pdp"
+    },
+    {
+      "id": 11,
+      "title": "Women's Elegant Dress",
+      "describe": "Long evening dress with lace design",
+      "brand": "Mango",
+      "price": 180,
+      "category": "women",
+      "image": "https://st.mngbcn.com/rcs/pics/static/T4/fotos/outfit/S24/47009461_99-99999999_01.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Women's Handbag",
+      "describe": "Leather shoulder bag with gold details",
+      "brand": "Guess",
+      "price": 220,
+      "category": "women",
+      "image": "https://guess.eu/on/demandware.static/-/Sites-guess-master-catalog/default/dw8c73f377/images/hi-res/SG787823_COA_B.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Women's High Heels",
+      "describe": "Classic pointed-toe heels 8cm",
+      "brand": "Aldo",
+      "price": 150,
+      "category": "women",
+      "image": "https://aldoshoes.imgix.net/hero-ss24/ALDO-CALLITHA-Black-13165010_1.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Women's Winter Coat",
+      "describe": "Warm wool coat with belt and pockets",
+      "brand": "Zara",
+      "price": 280,
+      "category": "women",
+      "image": "https://static.zara.net/photos///2023/I/0/1/p/2730/881/800/2/w/1126/2730881800_2_1_1.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Women's Smart Watch",
+      "describe": "Stylish fitness tracker with pink strap",
+      "brand": "Samsung",
+      "price": 190,
+      "category": "women",
+      "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/galaxy-watch6-pinkgold-40mm-sm-r930nzeaegy-thumb-538019902"
+    },
+    {
+      "id": 16,
+      "title": "Kids' Toy Car",
+      "describe": "Electric ride-on car for children ages 3-6",
+      "brand": "Hot Wheels",
+      "price": 300,
+      "category": "kids",
+      "image": "https://m.media-amazon.com/images/I/71LDSh4VQkL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Kids' Backpack",
+      "describe": "Colorful cartoon backpack for school",
+      "brand": "Puma",
+      "price": 40,
+      "category": "kids",
+      "image": "https://m.media-amazon.com/images/I/61gyXcWxxQL._AC_SL1500_.jpg"
+    },
+    {
+      "id": 18,
+      "title": "Kids' Sneakers",
+      "describe": "Comfortable running shoes for boys and girls",
+      "brand": "Adidas",
+      "price": 60,
+      "category": "kids",
+      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/0bfa5a9f9b7b4b2eae01af3f009f3b8c_9366/Samba_OG_Shoes_Black_B75807_01_standard.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Kids' Puzzle Set",
+      "describe": "Educational wooden puzzle set 100 pieces",
+      "brand": "Lego",
+      "price": 45,
+      "category": "kids",
+      "image": "https://m.media-amazon.com/images/I/81o9V1d0o5L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Decorative Wall Clock",
+      "describe": "Minimalist wall clock for home decor",
+      "brand": "Ikea",
+      "price": 75,
+      "category": "other",
+      "image": "https://www.ikea.com/ext/ingkadam/m/19ac4ef4495d1e09/original/PE739858.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Gaming Chair",
+      "describe": "Ergonomic adjustable gaming chair with headrest",
+      "brand": "Razer",
+      "price": 320,
+      "category": "other",
+      "image": "https://m.media-amazon.com/images/I/71qM1M1mM4L._AC_SL1500_.jpg"
+    }
+  ]
+}
