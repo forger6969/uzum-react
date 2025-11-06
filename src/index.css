@@ -1,1 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
+
+* {
+    font-family: "inter";
+}
+
+/* style.css */
+.swiper-button-next,
+.swiper-button-prev {
+    align-items: center !important;
+    background: #ffffffb3 !important;
+    border: 1px solid #36374040 !important;
+    border-radius: 4px !important;
+    border-radius: 20px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    height: 40px !important;
+    justify-content: center !important;
+    opacity: .5 !important;
+    position: absolute !important;
+    text-decoration: none !important;
+    transition: all .3s ease-in-out !important;
+    width: 40px !important;
+    z-index: 1 !important;
+    font-size: 10px !important;
+}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 14px !important;
+    color: black !important;
+}
+
+.swiper-pagination-bullet {
+    opacity: 50% !important;
+    background-color: #adadad90 !important;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 100% !important;
+}

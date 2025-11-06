@@ -14,15 +14,19 @@ const StatusBar = () => {
     const { isUzb, setLang } = language
     console.log(language);
 
-    const [modal, setModal] = useState(false)
-    const [city, setCity] = useState({
+    const tashkent = {
         uz: "Tashkent",
         ru: "Ташкент"
-    })
+    }
 
+    const storage = JSON.parse(localStorage.getItem(`city`))
+    console.log(storage);
+
+
+    const [modal, setModal] = useState(false)
+    const [city, setCity] = useState(storage || tashkent)
     const setLanguageBtn = () => {
         setLang(!isUzb)
-        console.log(language);
     }
 
     const openModal = () => {

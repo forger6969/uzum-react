@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 
 import { AppContext } from '../AppContext'
 
@@ -63,37 +63,44 @@ const CityModal = ({ setModal, modal, setCity }) => {
     const { language } = useContext(AppContext)
     const { isUzb, setLang } = language
 
+    const [searched, setSearch] = useState(uzbekistanCities)
+
     const closeModal = () => {
         setModal(!modal)
     }
 
     const setCityClick = (city) => {
         setCity(city)
+        localStorage.setItem(`city`, JSON.stringify(city))
         setModal(false)
         console.log(modal);
+    }
+
+    const search = (e) => {
+        const value = e.target.value.toLowerCase().trim()
+        const filtered = uzbekistanCities.filter(f => f.ru.toLowerCase().trim().includes(value) || f.uz.toLowerCase().trim().includes(value))
+        setSearch(filtered)
     }
 
     return (
         <div>
 
-            <div className='bg-[#00000080] h-[100vh] w-[100wh]  top-0 left-0'>
+            <div className='bg-[#00000080] h-full w-full fixed top-0 left-0 z-[40]'>
 
-                <div className='bg-white fixed left-[400px] top-[100px] max-h-[460px] rounded-[8px] p-[32px] w-[664px]'>
+                <div className='modal bg-white fixed left-[400px] top-[100px] max-h-[460px] rounded-[8px] p-[32px] w-[664px] flex flex-col gap-[20px]'>
 
                     <div className='flex justify-between items-center '>
                         <p className='text-[25px] font-bold'>{isUzb ? "Shaharni tanlang" : "Выберете город"}</p>
 
-                        <button onClick={closeModal} className='w-[28px] h-[28px] bg-[#dee0e5] rounded-full flex items-center justify-center text-[#cbcaca] pb-[2px]'>x</button>
+                        <button onClick={closeModal} className='w-[28px] h-[28px] bg-[#dee0e5] rounded-full flex items-center justify-center text-[#cbcaca] pb-[2px] transition-all hover:bg-[#cecece] hover:text-white'>x</button>
                     </div>
 
-                    <input type="text" />
+                    <input onChange={search} className='bg-[#edeff2] w-full py-[10px] px-[20px] rounded-xl outline-none' placeholder={isUzb ? "Shaharni qidirish" : "Искать город"} type="text" />
 
                     <div className="cities overflow-y-scroll max-h-[300px]">
-
-                        {uzbekistanCities.map((m, i) => (
+                        {searched.map((m, i) => (
                             <p onClick={() => setCityClick(m)} key={i} className='py-[15px] hover:bg-[#e2e1e1] transition-all px-[10px] border-b-[2px] border-b-[#adadad] text-[15px] font-medium'>{isUzb ? m.uz : m.ru}</p>
                         ))}
-
                     </div>
 
                 </div>

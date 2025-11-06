@@ -2,192 +2,479 @@
   "products": [
     {
       "id": 1,
-      "title": "Iphone 16 pro max 256GB",
-      "describe": "Iphone 16 pro max 256GB 16GB RAM",
-      "brand": "Apple",
-      "price": 1200,
-      "category": "technology",
-      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-16-pro-max-finish-select-2024"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "Samsung Galaxy S23 Ultra",
+      "name_ru": "Samsung Galaxy S23 Ultra",
+      "price": 1150,
+      "image_url": "https://images.samsung.com/is/image/samsung/p6pim/uz/2302/gallery/uz-galaxy-s23-s918-sm-s918bzkjskz-534866164"
     },
     {
       "id": 2,
-      "title": "Samsung Galaxy S24 Ultra",
-      "describe": "Samsung Galaxy S24 Ultra 512GB 12GB RAM",
-      "brand": "Samsung",
-      "price": 1100,
-      "category": "technology",
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-s928bzkamea/gallery/levant-galaxy-s24-ultra-sm-s928bzkamea-thumb-538706486"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "iPhone 15 Pro Max",
+      "name_ru": "iPhone 15 Pro Max",
+      "price": 1300,
+      "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-15-pro-finish-select-202309-6-7inch-naturaltitanium?wid=5120&hei=2880&fmt=p-jpg"
     },
     {
       "id": 3,
-      "title": "MacBook Pro M3 14-inch",
-      "describe": "Apple MacBook Pro M3 chip 14-inch 512GB SSD",
-      "brand": "Apple",
-      "price": 2200,
-      "category": "technology",
-      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-silver-select-202310"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "Xiaomi Redmi Note 13 Pro",
+      "name_ru": "Xiaomi Redmi Note 13 Pro",
+      "price": 320,
+      "image_url": "https://i02.appmifile.com/764_operator_in/13/01/2024/0b8155d0a6964f4c1c2f2a5d4f5a5c94.png"
     },
     {
       "id": 4,
-      "title": "Sony WH-1000XM5",
-      "describe": "Wireless noise-cancelling headphones",
-      "brand": "Sony",
-      "price": 380,
-      "category": "technology",
-      "image": "https://m.media-amazon.com/images/I/61uMikf7VZL._AC_SL1500_.jpg"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "MacBook Air M2",
+      "name_ru": "MacBook Air M2",
+      "price": 1100,
+      "image_url": "https://www.apple.com/newsroom/images/2022/06/apple-introduces-all-new-macbook-air-supercharged-by-m2/article/Apple-MacBook-Air-M2-220606_big.jpg.large.jpg"
     },
     {
       "id": 5,
-      "title": "PlayStation 5 Slim",
-      "describe": "Sony PlayStation 5 Slim Digital Edition 1TB",
-      "brand": "Sony",
-      "price": 600,
-      "category": "technology",
-      "image": "https://m.media-amazon.com/images/I/61vGQNUEsGL._AC_SL1500_.jpg"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "ASUS TUF Gaming Laptop",
+      "name_ru": "Игровой Ноутбук ASUS TUF",
+      "price": 950,
+      "image_url": "https://dlcdnwebimgs.asus.com/gain/4EF34DC5-2219-4DFC-8933-8ADEBF4D6BA7/w717/h525"
     },
     {
       "id": 6,
-      "title": "Men's Classic Leather Jacket",
-      "describe": "Genuine leather biker jacket with zip pockets",
-      "brand": "Zara",
-      "price": 250,
-      "category": "men",
-      "image": "https://static.zara.net/photos///2024/V/0/2/p/3047/301/800/2/w/1126/3047301800_2_1_1.jpg"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "Samsung 55\" QLED 4K Televizor",
+      "name_ru": "Телевизор Samsung 55\" QLED 4K",
+      "price": 700,
+      "image_url": "https://images.samsung.com/is/image/samsung/p6pim/uz/qe55q60cauxce/gallery/uz-qled-q60c-qe55q60cauxce-534973881"
     },
     {
       "id": 7,
-      "title": "Men's Running Shoes",
-      "describe": "Lightweight breathable sneakers for training",
-      "brand": "Nike",
-      "price": 130,
-      "category": "men",
-      "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4a4e4d47-13cb-41b3-8c40-9ef4223c4a86/air-zoom-pegasus-41-mens-road-running-shoes.png"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "AirPods Pro (2-avlod)",
+      "name_ru": "AirPods Pro (2-го поколения)",
+      "price": 230,
+      "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQD83?wid=572&hei=572&fmt=jpeg"
     },
     {
       "id": 8,
-      "title": "Men's Smart Watch",
-      "describe": "Waterproof smartwatch with heart rate monitor",
-      "brand": "Amazfit",
-      "price": 160,
-      "category": "men",
-      "image": "https://m.media-amazon.com/images/I/61qfUF1unXL._AC_SL1500_.jpg"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "PlayStation 5",
+      "name_ru": "PlayStation 5",
+      "price": 500,
+      "image_url": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$"
     },
     {
       "id": 9,
-      "title": "Men's Casual T-Shirt",
-      "describe": "100% cotton T-shirt with graphic print",
-      "brand": "H&M",
-      "price": 25,
-      "category": "men",
-      "image": "https://lp2.hm.com/hmgoepprod?set=source[/9c/f1/9cf1b8236e79d13c0ebf6c1466dfb47b2d4c28a3.jpg],origin[dam],category[men_tshirt]"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "Xbox Series X",
+      "name_ru": "Xbox Series X",
+      "price": 480,
+      "image_url": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4mRni?ver=8362"
     },
     {
       "id": 10,
-      "title": "Men's Denim Jeans",
-      "describe": "Slim fit blue jeans with stretch fabric",
-      "brand": "Levi's",
-      "price": 90,
-      "category": "men",
-      "image": "https://lsco.scene7.com/is/image/lsco/005140216-front-pdp"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "Apple Watch Series 9",
+      "name_ru": "Apple Watch Series 9",
+      "price": 380,
+      "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MU653ref?wid=572&hei=572&fmt=jpeg"
     },
     {
       "id": 11,
-      "title": "Women's Elegant Dress",
-      "describe": "Long evening dress with lace design",
-      "brand": "Mango",
-      "price": 180,
-      "category": "women",
-      "image": "https://st.mngbcn.com/rcs/pics/static/T4/fotos/outfit/S24/47009461_99-99999999_01.jpg"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "Samsung Galaxy Watch 6",
+      "name_ru": "Samsung Galaxy Watch 6",
+      "price": 280,
+      "image_url": "https://images.samsung.com/is/image/samsung/p6pim/uz/2307/gallery/uz-galaxy-watch6-r935-sm-r935fzkaskz-535988255"
     },
     {
       "id": 12,
-      "title": "Women's Handbag",
-      "describe": "Leather shoulder bag with gold details",
-      "brand": "Guess",
-      "price": 220,
-      "category": "women",
-      "image": "https://guess.eu/on/demandware.static/-/Sites-guess-master-catalog/default/dw8c73f377/images/hi-res/SG787823_COA_B.jpg"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "iPad Air",
+      "name_ru": "iPad Air",
+      "price": 650,
+      "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-air-finish-select-202207-blue-wifi?wid=5120&hei=2880&fmt=p-jpg"
     },
     {
       "id": 13,
-      "title": "Women's High Heels",
-      "describe": "Classic pointed-toe heels 8cm",
-      "brand": "Aldo",
-      "price": 150,
-      "category": "women",
-      "image": "https://aldoshoes.imgix.net/hero-ss24/ALDO-CALLITHA-Black-13165010_1.jpg"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "Sony WH-1000XM5 quloqchinlari",
+      "name_ru": "Наушники Sony WH-1000XM5",
+      "price": 350,
+      "image_url": "https://cdn.thewirecutter.com/wp-content/media/2022/09/noisecancelingheadphones-2048px-2683.jpg"
     },
     {
       "id": 14,
-      "title": "Women's Winter Coat",
-      "describe": "Warm wool coat with belt and pockets",
-      "brand": "Zara",
-      "price": 280,
-      "category": "women",
-      "image": "https://static.zara.net/photos///2023/I/0/1/p/2730/881/800/2/w/1126/2730881800_2_1_1.jpg"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "DJI Mavic 3 Dron",
+      "name_ru": "Дрон DJI Mavic 3",
+      "price": 1600,
+      "image_url": "https://www.dji.com/content/dam/dji/www-home/mavic-3-gallery-1.jpg"
     },
     {
       "id": 15,
-      "title": "Women's Smart Watch",
-      "describe": "Stylish fitness tracker with pink strap",
-      "brand": "Samsung",
-      "price": 190,
-      "category": "women",
-      "image": "https://images.samsung.com/is/image/samsung/p6pim/levant/galaxy-watch6-pinkgold-40mm-sm-r930nzeaegy-thumb-538019902"
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "Canon EOS R6 Kamera",
+      "name_ru": "Камера Canon EOS R6",
+      "price": 1800,
+      "image_url": "https://cdn.thewirecutter.com/wp-content/media/2020/10/mirrorlesscamera-2048px-6848.jpg"
     },
     {
       "id": 16,
-      "title": "Kids' Toy Car",
-      "describe": "Electric ride-on car for children ages 3-6",
-      "brand": "Hot Wheels",
-      "price": 300,
-      "category": "kids",
-      "image": "https://m.media-amazon.com/images/I/71LDSh4VQkL._AC_SL1500_.jpg"
+      "category_uz": "Erkaklar",
+      "category_ru": "Мужские",
+      "name_uz": "Erkaklar koyka yaktagi",
+      "name_ru": "Мужская кожаная куртка",
+      "price": 150,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/8d5b4d8f8b5c4c6c8e5f4a5a5a5a5a5a/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
     },
     {
       "id": 17,
-      "title": "Kids' Backpack",
-      "describe": "Colorful cartoon backpack for school",
-      "brand": "Puma",
-      "price": 40,
-      "category": "kids",
-      "image": "https://m.media-amazon.com/images/I/61gyXcWxxQL._AC_SL1500_.jpg"
+      "category_uz": "Erkaklar",
+      "category_ru": "Мужские",
+      "name_uz": "Klassik kostyum",
+      "name_ru": "Классический костюм",
+      "price": 200,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/9a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
     },
     {
       "id": 18,
-      "title": "Kids' Sneakers",
-      "describe": "Comfortable running shoes for boys and girls",
-      "brand": "Adidas",
-      "price": 60,
-      "category": "kids",
-      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/0bfa5a9f9b7b4b2eae01af3f009f3b8c_9366/Samba_OG_Shoes_Black_B75807_01_standard.jpg"
+      "category_uz": "Erkaklar",
+      "category_ru": "Мужские",
+      "name_uz": "Jinsi shim",
+      "name_ru": "Джинсы",
+      "price": 45,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/7a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
     },
     {
       "id": 19,
-      "title": "Kids' Puzzle Set",
-      "describe": "Educational wooden puzzle set 100 pieces",
-      "brand": "Lego",
-      "price": 45,
-      "category": "kids",
-      "image": "https://m.media-amazon.com/images/I/81o9V1d0o5L._AC_SL1500_.jpg"
+      "category_uz": "Erkaklar",
+      "category_ru": "Мужские",
+      "name_uz": "Sport kurtka",
+      "name_ru": "Спортивная куртка",
+      "price": 80,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/6a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
     },
     {
       "id": 20,
-      "title": "Decorative Wall Clock",
-      "describe": "Minimalist wall clock for home decor",
-      "brand": "Ikea",
-      "price": 75,
-      "category": "other",
-      "image": "https://www.ikea.com/ext/ingkadam/m/19ac4ef4495d1e09/original/PE739858.jpg"
+      "category_uz": "Erkaklar",
+      "category_ru": "Мужские",
+      "name_uz": "Polo futbolka",
+      "name_ru": "Футболка Polo",
+      "price": 25,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/5a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
     },
     {
       "id": 21,
-      "title": "Gaming Chair",
-      "describe": "Ergonomic adjustable gaming chair with headrest",
-      "brand": "Razer",
-      "price": 320,
-      "category": "other",
-      "image": "https://m.media-amazon.com/images/I/71qM1M1mM4L._AC_SL1500_.jpg"
+      "category_uz": "Erkaklar",
+      "category_ru": "Мужские",
+      "name_uz": "Idish yuvish kremi",
+      "name_ru": "Крем для обуви",
+      "price": 10,
+      "image_url": "https://m.media-amazon.com/images/I/81X5Y7Y5Z5L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 22,
+      "category_uz": "Erkaklar",
+      "category_ru": "Мужские",
+      "name_uz": "Chaqaloq kiyimi",
+      "name_ru": "Детская одежда",
+      "price": 20,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/4a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 23,
+      "category_uz": "Erkaklar",
+      "category_ru": "Мужские",
+      "name_uz": "Soch tarash qurilmasi",
+      "name_ru": "Устройство для стрижки волос",
+      "price": 35,
+      "image_url": "https://m.media-amazon.com/images/I/71Z5Z5Z5Z5L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 24,
+      "category_uz": "Erkaklar",
+      "category_ru": "Мужские",
+      "name_uz": "Saat",
+      "name_ru": "Часы",
+      "price": 120,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/3a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 25,
+      "category_uz": "Erkaklar",
+      "category_ru": "Мужские",
+      "name_uz": "Sumka",
+      "name_ru": "Сумка",
+      "price": 55,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/2a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 26,
+      "category_uz": "Ayollar",
+      "category_ru": "Женские",
+      "name_uz": "Ayollar koyka yaktagi",
+      "name_ru": "Женская кожаная куртка",
+      "price": 130,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/1a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 27,
+      "category_uz": "Ayollar",
+      "category_ru": "Женские",
+      "name_uz": "Klassik kostyum",
+      "name_ru": "Классический костюм",
+      "price": 180,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/0a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 28,
+      "category_uz": "Ayollar",
+      "category_ru": "Женские",
+      "name_uz": "Jinsi shim",
+      "name_ru": "Джинсы",
+      "price": 40,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/9a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 29,
+      "category_uz": "Ayollar",
+      "category_ru": "Женские",
+      "name_uz": "Sport kurtka",
+      "name_ru": "Спортивная куртка",
+      "price": 75,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/8a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 30,
+      "category_uz": "Ayollar",
+      "category_ru": "Женские",
+      "name_uz": "Polo futbolka",
+      "name_ru": "Футболка Polo",
+      "price": 22,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/7a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 31,
+      "category_uz": "Ayollar",
+      "category_ru": "Женские",
+      "name_uz": "Idish yuvish kremi",
+      "name_ru": "Крем для обуви",
+      "price": 8,
+      "image_url": "https://m.media-amazon.com/images/I/81X5Y7Y5Z5L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 32,
+      "category_uz": "Ayollar",
+      "category_ru": "Женские",
+      "name_uz": "Chaqaloq kiyimi",
+      "name_ru": "Детская одежда",
+      "price": 18,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/6a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 33,
+      "category_uz": "Ayollar",
+      "category_ru": "Женские",
+      "name_uz": "Soch tarash qurilmasi",
+      "name_ru": "Устройство для стрижки волос",
+      "price": 30,
+      "image_url": "https://m.media-amazon.com/images/I/71Z5Z5Z5Z5L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 34,
+      "category_uz": "Ayollar",
+      "category_ru": "Женские",
+      "name_uz": "Saat",
+      "name_ru": "Часы",
+      "price": 100,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/5a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 35,
+      "category_uz": "Ayollar",
+      "category_ru": "Женские",
+      "name_uz": "Sumka",
+      "name_ru": "Сумка",
+      "price": 50,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/4a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 36,
+      "category_uz": "Bolalar",
+      "category_ru": "Детские",
+      "name_uz": "Bolalar koyka yaktagi",
+      "name_ru": "Детская кожаная куртка",
+      "price": 60,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/3a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 37,
+      "category_uz": "Bolalar",
+      "category_ru": "Детские",
+      "name_uz": "Klassik kostyum",
+      "name_ru": "Классический костюм",
+      "price": 90,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/2a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 38,
+      "category_uz": "Bolalar",
+      "category_ru": "Детские",
+      "name_uz": "Jinsi shim",
+      "name_ru": "Джинсы",
+      "price": 25,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/1a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 39,
+      "category_uz": "Bolalar",
+      "category_ru": "Детские",
+      "name_uz": "Sport kurtka",
+      "name_ru": "Спортивная куртка",
+      "price": 45,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/0a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 40,
+      "category_uz": "Bolalar",
+      "category_ru": "Детские",
+      "name_uz": "Polo futbolka",
+      "name_ru": "Футболка Polo",
+      "price": 15,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/9a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 41,
+      "category_uz": "Bolalar",
+      "category_ru": "Детские",
+      "name_uz": "Idish yuvish kremi",
+      "name_ru": "Крем для обуви",
+      "price": 5,
+      "image_url": "https://m.media-amazon.com/images/I/81X5Y7Y5Z5L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 42,
+      "category_uz": "Bolalar",
+      "category_ru": "Детские",
+      "name_uz": "Chaqaloq kiyimi",
+      "name_ru": "Детская одежда",
+      "price": 12,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/8a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 43,
+      "category_uz": "Bolalar",
+      "category_ru": "Детские",
+      "name_uz": "Soch tarash qurilmasi",
+      "name_ru": "Устройство для стрижки волос",
+      "price": 20,
+      "image_url": "https://m.media-amazon.com/images/I/71Z5Z5Z5Z5L._AC_SL1500_.jpg"
+    },
+    {
+      "id": 44,
+      "category_uz": "Bolalar",
+      "category_ru": "Детские",
+      "name_uz": "Saat",
+      "name_ru": "Часы",
+      "price": 50,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/7a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 45,
+      "category_uz": "Bolalar",
+      "category_ru": "Детские",
+      "name_uz": "Sumka",
+      "name_ru": "Сумка",
+      "price": 30,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/6a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 46,
+      "category_uz": "Boshqa",
+      "category_ru": "Другое",
+      "name_uz": "Koyka yaktagi",
+      "name_ru": "Кожаная куртка",
+      "price": 140,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/5a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 47,
+      "category_uz": "Boshqa",
+      "category_ru": "Другое",
+      "name_uz": "Klassik kostyum",
+      "name_ru": "Классический костюм",
+      "price": 170,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/4a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 48,
+      "category_uz": "Boshqa",
+      "category_ru": "Другое",
+      "name_uz": "Jinsi shim",
+      "name_ru": "Джинсы",
+      "price": 35,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/3a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    },
+    {
+      "id": 49,
+      "category_uz": "Boshqa",
+      "category_ru": "Другое",
+      "name_uz": "Sport kurtka",
+      "name_ru": "Спортивная куртка",
+      "price": 65,
+      "image_url": "https://img01.ztat.net/article/spp-media-p1/2a1b9d9d9d9d9d9d9d9d9d9d9d9d9d9d/5e9c9d9d9d9d9d9d9d9d9d9d9d9d9d9d.jpg"
+    }
+  ],
+  "users": [
+    {
+      "name": "Saidazim",
+      "phone": 991112233,
+      "password": "ForgerPass",
+      "isAdmin": true
+    },
+    {
+      "name": "Aiden",
+      "phone": 934567756,
+      "password": "Aiden456",
+      "isAdmin": true
+    },
+    {
+      "id": "5de6",
+      "name": "Saidazim",
+      "phone": 777777777,
+      "password": "Forger123",
+      "isAdmin": false
+    },
+    {
+      "id": "d965",
+      "name": "Aziz",
+      "phone": 999999999,
+      "password": "TupoyVolk",
+      "isAdmin": false
+    },
+    {
+      "id": "5a45",
+      "name": "sdfsdf",
+      "phone": 123123123,
+      "password": "132123",
+      "isAdmin": false
     }
   ]
 }
