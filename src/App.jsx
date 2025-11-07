@@ -31,7 +31,7 @@ const App = () => {
         },
         auth: {
           user: auth,
-          setUser: setAuth
+          setUser: setAuth,
         },
         cart: {
           cartArray: cartArr,

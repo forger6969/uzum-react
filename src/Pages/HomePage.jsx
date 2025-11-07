@@ -1,11 +1,19 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import StatusBar from '../Components/StatusBar'
 import Nav from '../Components/Nav'
 import HomeSwiper from '../Components/HomeSwiper'
 import Cards from '../Components/Cards'
 import Category from '../Components/Category'
+import AdminPanel from '../Components/AdminPanel'
+
+import { AppContext } from '../AppContext'
 
 const HomePage = () => {
+
+    const { auth } = useContext(AppContext)
+    const { user } = auth
+    const { isAdmin } = user
+
     const [fetchProd, setFetch] = useState([])
     const [filtered, setFiltered] = useState([])
     const [filter, setFilter] = useState('')
@@ -46,9 +54,11 @@ const HomePage = () => {
             <StatusBar />
             <Nav setFilter={setFilter} />
             {showSwiper && <HomeSwiper />}
-            <Category set={setFiltered} prod={fetchProd} />
+            {showSwiper && <Category set={setFiltered} prod={fetchProd} />}
             <Cards products={filtered} />
-
+            {isAdmin &&
+                <AdminPanel />
+            }
         </>
     )
 }

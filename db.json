@@ -155,7 +155,7 @@
     },
     {
       "id": 18,
-      "category_uz": "Boshqa",
+      " ": "Boshqa",
       "category_ru": "Другое",
       "name_uz": "Robot tozalagich (Roomba i3)",
       "name_ru": "Робот-пылесос Roomba i3",
@@ -250,6 +250,13 @@
       "phone": 123123123,
       "password": "132123",
       "isAdmin": false
+    },
+    {
+      "id": "0c1c",
+      "name": "Forger",
+      "phone": 933150342,
+      "password": "Forger123",
+      "isAdmin": true
     }
   ]
 }

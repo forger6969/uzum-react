@@ -1,4 +1,5 @@
 import React, { useContext, useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../assets/uzumLogo.png'
 
 import { AppContext } from '../AppContext'
@@ -9,11 +10,16 @@ import heartSVG from '../assets/heart-svgrepo-com.svg'
 import basketSVG from '../assets/shopping-bag-svgrepo-com.svg'
 import catalogSVG from '../assets/catalog.svg'
 
+import adminAva from '../assets/admin-svgrepo-com.svg'
+
 const Nav = ({ setFilter }) => {
     const { language, auth, cart } = useContext(AppContext)
     const { isUzb } = language
     const { user, setUser } = auth
     const { setCart, cartArray } = cart
+    const { isAdmin } = user
+    console.log(isAdmin);
+
     console.log(language);
 
     const [modal, setModal] = useState(false)
@@ -38,8 +44,8 @@ const Nav = ({ setFilter }) => {
                     </div>
 
                     <div className='flex items-center gap-[10px] pl-[5px]'>
-                        <button onClick={() => setModal(true)} className='font-medium px-[15px] py-[5px] transition-all hover:bg-[#d8d6d6] rounded text-[17px] flex items-center gap-[10px]'> <img className='w-[20px]' src={userSVG} alt="" /> {user.name || vxodPerevod}</button>
-                        <button className='font-medium w-fit py-[5px] transition-all hover:bg-[#d8d6d6] rounded text-[17px] flex items-center gap-[10px]'><img className='w-[20px]' src={heartSVG} alt="" /> {isUzb ? "Saralangan" : "Избранное"}</button>
+                        <button onClick={() => setModal(true)} className='font-medium px-[15px] py-[5px] transition-all hover:bg-[#d8d6d6] rounded text-[17px] flex items-center gap-[10px]'> <img className='w-[20px]' src={isAdmin ? adminAva : userSVG} alt="" /> {user.name || vxodPerevod}</button>
+                        <Link className='font-medium w-fit py-[5px] transition-all hover:bg-[#d8d6d6] rounded text-[17px] flex items-center gap-[10px]'><img className='w-[20px]' src={heartSVG} alt="" /> {isUzb ? "Saralangan" : "Избранное"}</Link>
                         <button className='font-medium px-[15px] py-[5px] transition-all hover:bg-[#d8d6d6] rounded text-[17px] flex items-center gap-[10px]'> <img className='w-[20px]' src={basketSVG} alt="" /> {isUzb ? "Savat" : "Корзина"} <span className='bg-[#7000ff] rounded text-white px-[5px]'>{cartArray.length}</span></button>
                     </div>
                 </div>
