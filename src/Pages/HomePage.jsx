@@ -3,11 +3,14 @@ import StatusBar from '../Components/StatusBar'
 import Nav from '../Components/Nav'
 import HomeSwiper from '../Components/HomeSwiper'
 import Cards from '../Components/Cards'
+import Category from '../Components/Category'
 
 const HomePage = () => {
     const [fetchProd, setFetch] = useState([])
     const [filtered, setFiltered] = useState([])
     const [filter, setFilter] = useState('')
+
+    const [showSwiper, setSwiper] = useState(true)
 
     let prod = []
 
@@ -26,9 +29,11 @@ const HomePage = () => {
 
         if (filter === ``) {
             setFiltered(fetchProd)
+            setSwiper(true)
         } else {
-            const filtered = fetchProd.filter(f => f.name_uz.toLowerCase().trim().includes(filter))
+            const filtered = fetchProd.filter(f => f.name_uz.toLowerCase().trim().includes(filter) || f.name_ru.toLowerCase().trim().includes(filter))
             setFiltered(filtered)
+            setSwiper(false)
         }
     }, [filter, fetchProd])
 
@@ -40,7 +45,8 @@ const HomePage = () => {
 
             <StatusBar />
             <Nav setFilter={setFilter} />
-            <HomeSwiper />
+            {showSwiper && <HomeSwiper />}
+            <Category set={setFiltered} prod={fetchProd} />
             <Cards products={filtered} />
 
         </>

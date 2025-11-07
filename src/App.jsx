@@ -8,9 +8,11 @@ import HomePage from './Pages/HomePage'
 
 const App = () => {
 
+  const getCart = JSON.parse(localStorage.getItem('productBasket'))
 
   const [isUzb, setLang] = useState(true)
   const [auth, setAuth] = useState({})
+  const [cartArr, setCart] = useState(getCart || [])
 
   useEffect(() => {
     if (localStorage.getItem(`currentUser`)) {
@@ -30,6 +32,10 @@ const App = () => {
         auth: {
           user: auth,
           setUser: setAuth
+        },
+        cart: {
+          cartArray: cartArr,
+          setCart: setCart
         }
       }}>
         <BrowserRouter>
