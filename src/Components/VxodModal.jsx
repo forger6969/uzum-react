@@ -99,6 +99,7 @@ const VxodModal = ({ setModal }) => {
 
     useEffect(() => {
         getUsers()
+        console.log(fetchUser);
     }, [])
 
 

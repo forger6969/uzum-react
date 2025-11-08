@@ -1,220 +1,67 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "6f47",
       "category_uz": "Elektronika",
       "category_ru": "Электроника",
-      "name_uz": "Samsung Galaxy S23 Ultra",
-      "name_ru": "Samsung Galaxy S23 Ultra",
-      "price": 1150,
-      "image_url": "https://images.samsung.com/is/image/samsung/p6pim/levant/sm-s918bznmmid/gallery/levant-galaxy-s23-ultra-s918-431931-sm-s918bznmmid-534866164"
+      "name_uz": "Iphone 17 PRO MAX",
+      "name_ru": "Iphine 17 PRO MAX",
+      "price": 1500,
+      "image_url": "https://macbro.uz/cdn/shop/files/iphone_17_pro_max_cosmic_orange_1.jpg?v=1757932690"
     },
     {
-      "id": 2,
+      "id": "f604",
       "category_uz": "Elektronika",
       "category_ru": "Электроника",
-      "name_uz": "iPhone 15 Pro Max",
-      "name_ru": "iPhone 15 Pro Max",
-      "price": 1300,
-      "image_url": "https://www.apple.com/v/iphone-15-pro/a/images/overview/finish_1_iphone_15_pro__e256f3v9m1yq_large.jpg"
+      "name_uz": "Airpods MAX naushniki",
+      "name_ru": "Наушники Airpods MAX",
+      "price": 270,
+      "image_url": "https://castore.uz/upload/iblock/0fc/ao7pgcup2xu3r1us46m033z0egthpn0i/besprovodnye-naushniki-apple-airpods-max-space-silver-2.webp"
     },
     {
-      "id": 3,
-      "category_uz": "Elektronika",
-      "category_ru": "Электроника",
-      "name_uz": "Xiaomi Redmi Note 13 Pro",
-      "name_ru": "Xiaomi Redmi Note 13 Pro",
-      "price": 320,
-      "image_url": "https://i01.appmifile.com/webfile/globalimg/products/pc/redmi-note-13-pro/redmi-note-13-pro-01.png"
-    },
-    {
-      "id": 4,
-      "category_uz": "Elektronika",
-      "category_ru": "Электроника",
-      "name_uz": "MacBook Air M2",
-      "name_ru": "MacBook Air M2",
-      "price": 1100,
-      "image_url": "https://www.apple.com/v/macbook-air-m2/f/images/overview/hero_endframe__bsza6x4fldiq_large.jpg"
-    },
-    {
-      "id": 5,
-      "category_uz": "Elektronika",
-      "category_ru": "Электроника",
-      "name_uz": "Sony WH-1000XM5",
-      "name_ru": "Наушники Sony WH-1000XM5",
-      "price": 350,
-      "image_url": "https://m.media-amazon.com/images/I/71o8Q5XJS5L._AC_SL1500_.jpg"
-    },
-    {
-      "id": 6,
-      "category_uz": "Elektronika",
-      "category_ru": "Электроника",
-      "name_uz": "DJI Mini 3 Pro",
-      "name_ru": "Дрон DJI Mini 3 Pro",
-      "price": 899,
-      "image_url": "https://www.dji.com/product/mini-3-pro/gallery#gallery-1"
-    },
-    {
-      "id": 7,
-      "category_uz": "Elektronika",
-      "category_ru": "Электроника",
-      "name_uz": "Canon EOS R50",
-      "name_ru": "Камера Canon EOS R50",
-      "price": 800,
-      "image_url": "https://m.media-amazon.com/images/I/61+7kq7sX9L._AC_SL1000_.jpg"
-    },
-    {
-      "id": 8,
-      "category_uz": "Elektronika",
-      "category_ru": "Электроника",
-      "name_uz": "Apple Watch Series 9",
-      "name_ru": "Apple Watch Series 9",
-      "price": 380,
-      "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MU653ref?wid=572&hei=572&fmt=jpeg"
-    },
-    {
-      "id": 9,
-      "category_uz": "Erkaklar",
-      "category_ru": "Мужские",
-      "name_uz": "Erkaklar teri kurtka",
-      "name_ru": "Мужская кожаная куртка",
-      "price": 150,
-      "image_url": "https://lp2.hm.com/hmgoepprod?set=source[/b0/2f/b02f0b6d4f0e5f3b3f6a3d2b2c9f8a8c3d2b9b1a.jpg],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/style]"
-    },
-    {
-      "id": 10,
-      "category_uz": "Erkaklar",
-      "category_ru": "Мужские",
-      "name_uz": "Klassik kostyum (erkak)",
-      "name_ru": "Классический костюм",
-      "price": 200,
-      "image_url": "https://content.montgomeryward.com/is/image/montgomeryward/1019159061_1?$product-detail-main$"
-    },
-    {
-      "id": 11,
-      "category_uz": "Erkaklar",
-      "category_ru": "Мужские",
-      "name_uz": "Jinsi shim (erkak)",
-      "name_ru": "Джинсы",
-      "price": 45,
-      "image_url": "https://m.media-amazon.com/images/I/81kRk3p0NdL._AC_UY550_.jpg"
-    },
-    {
-      "id": 12,
-      "category_uz": "Ayollar",
-      "category_ru": "Женские",
-      "name_uz": "Ayollar teri kurtka",
-      "name_ru": "Женская кожаная куртка",
-      "price": 130,
-      "image_url": "https://lp2.hm.com/hmgoepprod?set=source[/f3/4d/f34d3d1e5a0f9a9b4a8d3c1d2e3f4a5b6c7d8e9f.jpg],type[LOOKBOOK],res[m],hmver[1]&call=url[file:/product/style]"
-    },
-    {
-      "id": 13,
-      "category_uz": "Ayollar",
-      "category_ru": "Женские",
-      "name_uz": "Sumka ayollar",
-      "name_ru": "Сумка",
-      "price": 50,
-      "image_url": "https://cdn.shopify.com/s/files/1/0267/0249/3534/products/leather-shoulder-bag-1_grande.jpg"
-    },
-    {
-      "id": 14,
-      "category_uz": "Ayollar",
-      "category_ru": "Женские",
-      "name_uz": "Ayollar sport futbolka",
-      "name_ru": "Спортивная футболка",
-      "price": 22,
-      "image_url": "https://static.nike.com/a/images/t_default/8f2b6e6d-1c5b-4f2f-9a3b-8f3c9b9e6b1a/men-s-dri-fit-running-t-shirt.png"
-    },
-    {
-      "id": 15,
+      "id": "7851",
       "category_uz": "Bolalar",
       "category_ru": "Детские",
-      "name_uz": "Bolalar teri kurtka",
-      "name_ru": "Детская кожаная куртка",
-      "price": 60,
-      "image_url": "https://images.ctfassets.net/5de70he6op10/3d3c3f3f3d3d3/child-leather-jacket.jpg"
+      "name_uz": "Pikachu oyinchogi",
+      "name_ru": "Пикачу плюшевая игрушка",
+      "price": 13,
+      "image_url": "https://content1.rozetka.com.ua/goods/images/big/279736302.png"
     },
     {
-      "id": 16,
-      "category_uz": "Bolalar",
-      "category_ru": "Детские",
-      "name_uz": "Polo futbolka bolalar",
-      "name_ru": "Футболка Polo",
-      "price": 15,
-      "image_url": "https://assets.ralphlauren.com/is/image/RalphLauren/475038123001_001_prod?$rl_prod_carousel$"
-    },
-    {
-      "id": 17,
-      "category_uz": "Bolalar",
-      "category_ru": "Детские",
-      "name_uz": "Lego Creative Set",
-      "name_ru": "Конструктор Lego",
-      "price": 40,
-      "image_url": "https://www.lego.com/cdn/cs/set/assets/blt5f2f7f4f8d6e7b9f/10696_product_detail_feature.jpg"
-    },
-    {
-      "id": 18,
-      " ": "Boshqa",
-      "category_ru": "Другое",
-      "name_uz": "Robot tozalagich (Roomba i3)",
-      "name_ru": "Робот-пылесос Roomba i3",
-      "price": 399,
-      "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6423/6423896_sd.jpg"
-    },
-    {
-      "id": 19,
-      "category_uz": "Boshqa",
-      "category_ru": "Другое",
-      "name_uz": "Qahva mashinasi (Nespresso Vertuo)",
-      "name_ru": "Кофемашина Nespresso Vertuo",
-      "price": 199,
-      "image_url": "https://www.nespresso.com/ecom/medias/sys_master/public/15179008328734/VertuoNext-PremiumPRODUCT.png"
-    },
-    {
-      "id": 20,
-      "category_uz": "Boshqa",
-      "category_ru": "Другое",
-      "name_uz": "Quyosh ko'zoynaklari (Ray-Ban)",
-      "name_ru": "Солнцезащитные очки Ray-Ban",
-      "price": 120,
-      "image_url": "https://cdn.ray-ban.com/eyewear/RB3025_ProductPage.jpg"
-    },
-    {
-      "id": 21,
+      "id": "f4e3",
       "category_uz": "Elektronika",
       "category_ru": "Электроника",
-      "name_uz": "PlayStation 5",
-      "name_ru": "PlayStation 5",
-      "price": 500,
-      "image_url": "https://www.playstation.com/content/dam/psd/global/home/ps5-hero-image-01.jpg"
+      "name_uz": "Microsoft Surface Laptop 7 Price in BD",
+      "name_ru": "Ноутбук Microsoft Surface Laptop 7 BD",
+      "price": 1200,
+      "image_url": "https://mcsolution.com.bd/wp-content/uploads/2024/07/Microsoft-surface-laptop-7-Dune-7th-Edition-a-Copilot-PC-for-Business-Snapdragon%C2%AE-X-Plus-10-Core-Snapdragon%C2%AE-X-Elite-12-Core-Qualcomm%C2%AE-Adreno%E2%84%A2-GPU-price-in-Bangladesh-MC-Solution-BD.webp"
     },
     {
-      "id": 22,
+      "id": "cb40",
       "category_uz": "Elektronika",
       "category_ru": "Электроника",
-      "name_uz": "Xbox Series X",
-      "name_ru": "Xbox Series X",
-      "price": 480,
-      "image_url": "https://compass-ssl.xbox.com/assets/ea/64/ea640f6b-0b6c-4b6b-b6a1-2b4d6a3c8aab.jpg?n=Home-Hero-0_1920x1080.jpg"
+      "name_uz": "Apple iPad Pro 12.9-inch M2 Wi-fi 512GB",
+      "name_ru": "Планшет Apple iPad Pro 12.9-inch M2 Wi-fi 512GB",
+      "price": 1489,
+      "image_url": "https://maxcom.uz/storage/product/SloylFhAlqTSpmJ4gzw6D3Qx9lWZYDWVVpeZNfCj.png"
     },
     {
-      "id": 23,
-      "category_uz": "Ayollar",
-      "category_ru": "Женские",
-      "name_uz": "Ayollar soatlar (Fossil)",
-      "name_ru": "Женские часы Fossil",
-      "price": 110,
-      "image_url": "https://www.fossil.com/on/demandware.static/-/Sites-fossil-master-catalog/default/dw8f9a2b3b/images/FossilProductImage.jpg"
+      "id": "e2d8",
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "Aqilli soatlar Xiaomi Watch S1",
+      "name_ru": "Умные часы Xiaomi Watch S1",
+      "price": 230,
+      "image_url": "https://minapi.beemarket.uz/prod-media/productImages/1719218495hQCWzbbg6FXG.webp"
     },
     {
-      "id": 24,
-      "category_uz": "Erkaklar",
-      "category_ru": "Мужские",
-      "name_uz": "Erkak sport poyabzali (Nike)",
-      "name_ru": "Мужские кроссовки Nike",
-      "price": 95,
-      "image_url": "https://static.nike.com/a/images/t_default/9f3d6b1b-7c45-4e9a-bb7d-3c8f2b1f6d9c/nike-air-max-270-shoe.png"
+      "id": "3696",
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "Powerbank Baseus 20000 mAh",
+      "name_ru": "Powerbank Baseus 20000 mAh",
+      "price": 34.5,
+      "image_url": "https://dl.bs365.uz/storage/products/25670/HWJbzjQYmxPJzBgnw08B.jpg"
     }
   ],
   "users": [
@@ -242,13 +89,6 @@
       "name": "Aziz",
       "phone": 999999999,
       "password": "TupoyVolk",
-      "isAdmin": false
-    },
-    {
-      "id": "5a45",
-      "name": "sdfsdf",
-      "phone": 123123123,
-      "password": "132123",
       "isAdmin": false
     },
     {

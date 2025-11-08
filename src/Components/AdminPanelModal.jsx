@@ -23,9 +23,13 @@ const AdminPanelModal = ({ modal, setModal }) => {
     const [id, setId] = useState('')
     const [pass, setPass] = useState('')
 
+    const [userID, setUserID] = useState('')
+    const [blockPass, setBlockPass] = useState('')
+
     const closeModal = () => {
         setModal(false)
     }
+
 
     const postProduct = async () => {
         try {
@@ -81,6 +85,23 @@ const AdminPanelModal = ({ modal, setModal }) => {
 
         } catch (error) {
             console.log(error);
+        }
+    }
+
+    const blockUser = async () => {
+        try {
+
+            if (user.password === blockPass) {
+
+                const data = await fetch(`http://localhost:3001/users/${userID}`, {
+                    method: `DELETE`
+                })
+                setBlockPass('')
+                setUserID('')
+            }
+
+        } catch (err) {
+            console.log(err);
         }
     }
 
@@ -203,6 +224,41 @@ const AdminPanelModal = ({ modal, setModal }) => {
                         >{isUzb ? "Ochirish" : "Удалить"}</button>
 
                     </div>
+                }
+
+                {modal === `block` &&
+                    <div>
+                        <div className='flex flex-col gap-0 items-center relative w-[350px]'>
+                            <img className='w-[200px]' src={logo} alt='logo' />
+                            <p className='text-[24px] mt-2 font-semibold text-[#333] absolute bottom-[20px]'>
+                                {isUzb ? "Foydalanuvchini bloklash" : "Забанить пользователя"}
+                            </p>
+                        </div>
+
+                        <div className='flex flex-col gap-[10px]'>
+
+                            <input value={userID}
+                                onChange={(e) => setUserID(e.target.value)}
+                                className='w-full bg-[#edeff2] py-[12px] px-[16px] rounded-[7px] text-[18px] font-medium focus:outline-none focus:ring-2 focus:ring-[#7000ff]'
+                                placeholder={isUzb ? "Foydalanuvchi ID" : "ID Пользователя"}
+                                type='text'
+                            />
+
+                            <input value={blockPass}
+                                onChange={(e) => setBlockPass(e.target.value)}
+                                placeholder={isUzb ? "Parolingiz" : "Введите пароль"}
+                                className='w-full bg-[#edeff2] py-[12px] px-[16px] rounded-[7px] text-[18px] font-medium focus:outline-none focus:ring-2 focus:ring-[#7000ff]'
+                                type="text" />
+
+                        </div>
+
+                        <button onClick={blockUser}
+                            className='w-full bg-[#7000ff] mt-5 py-[10px] rounded-[7px] text-white text-[20px] font-medium transition-all hover:bg-[#5b00d1]'
+
+                        >{isUzb ? "Bloklash" : "Забанить"}</button>
+                    </div>
+
+
                 }
             </div>
 

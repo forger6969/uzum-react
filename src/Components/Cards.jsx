@@ -19,11 +19,12 @@ const Cards = ({ products }) => {
         setCart(storage)
         localStorage.setItem(`productBasket`, JSON.stringify(storage))
     }
+    console.log(2 + "2");
 
     return (
         <div>
 
-            <div className='flex flex-wrap gap-[30px] justify-between px-[150px] py-[100px]'>
+            <div className='flex flex-wrap gap-[90px] mx-auto px-[150px] py-[100px]'>
 
                 {products.map((m, i) => {
 
