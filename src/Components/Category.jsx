@@ -13,6 +13,12 @@ const Category = ({ set, prod }) => {
     const { language } = useContext(AppContext)
     const { isUzb } = language
 
+    let str = `hel lo wo rl d `
+    let newstr = str.replace(/\s+/g, '')
+    console.log(newstr);
+
+
+
     const filterFunct = (e) => {
         const filterCat = prod.filter(f => f.category_ru === e)
         set(filterCat)

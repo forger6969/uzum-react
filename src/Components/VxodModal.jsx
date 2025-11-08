@@ -5,6 +5,7 @@ import close from '../assets/close.svg'
 
 
 import warningSVG from '../assets/warning.svg'
+import axios from 'axios'
 
 const VxodModal = ({ setModal }) => {
 
@@ -30,9 +31,11 @@ const VxodModal = ({ setModal }) => {
 
     async function getUsers() {
         try {
-            const data = await fetch('http://localhost:3001/users')
-            const res = await data.json()
-            setFetch(res)
+            const data = await axios.get('http://localhost:3001/users')
+
+            setFetch(data.data)
+            console.log(data.data);
+
             console.log(fetchUser);
         } catch (err) {
             console.log(err);
@@ -41,21 +44,18 @@ const VxodModal = ({ setModal }) => {
 
     const postNewUser = async () => {
         const newPhoneClear = +newPhone.replace(/\D/g, '')
-        const post = await fetch(`http://localhost:3001/users`, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({
-                name: newName,
-                phone: newPhoneClear,
-                password: newPassword,
-                isAdmin: false
-            })
+        const post = await axios.post(`http://localhost:3001/users`, {
+            name: newName,
+            phone: newPhoneClear,
+            password: newPassword,
+            isAdmin: false
         })
 
         setMode('login')
         setNewPassword(null)
         setNewPhone(null)
         setNewName(null)
+        console.log(post);
     }
 
     const formatPhone = (value) => {
@@ -99,7 +99,6 @@ const VxodModal = ({ setModal }) => {
 
     useEffect(() => {
         getUsers()
-        console.log(fetchUser);
     }, [])
 
 

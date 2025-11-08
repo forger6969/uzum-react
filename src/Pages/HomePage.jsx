@@ -1,4 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
+import axios from 'axios'
+
 import StatusBar from '../Components/StatusBar'
 import Nav from '../Components/Nav'
 import HomeSwiper from '../Components/HomeSwiper'
@@ -24,10 +26,11 @@ const HomePage = () => {
 
     const getProd = async () => {
         try {
-            const data = await fetch(`http://localhost:3001/products`)
-            const res = await data.json()
-            setFetch(res)
-            setFiltered(res)
+            const data = await axios.get(`http://localhost:3001/products`)
+            console.log(data.data);
+
+            setFetch(data.data)
+            setFiltered(data.data)
         } catch (err) {
             console.log(err);
         }

@@ -62,34 +62,31 @@
       "name_ru": "Powerbank Baseus 20000 mAh",
       "price": 34.5,
       "image_url": "https://dl.bs365.uz/storage/products/25670/HWJbzjQYmxPJzBgnw08B.jpg"
+    },
+    {
+      "id": "faff",
+      "category_uz": "Elektronika",
+      "category_ru": "Электроника",
+      "name_uz": "samsung galaxy s25 ultra ",
+      "name_ru": "Телефон samsung galaxy s25 ultra",
+      "price": 1293,
+      "image_url": "https://castore.uz/upload/iblock/f8f/am33tjbfxhp0iz5hpc6kbxh6ytw9prxu/smartfon-samsung-galaxy-s25-ultra-5g-sm-s928b-ds-256gb-titanium-black.webp"
     }
   ],
   "users": [
     {
+      "id": "0m3c",
       "name": "Saidazim",
       "phone": 991112233,
       "password": "ForgerPass",
       "isAdmin": true
     },
     {
+      "id": "0m1b",
       "name": "Aiden",
       "phone": 934567756,
       "password": "Aiden456",
       "isAdmin": true
-    },
-    {
-      "id": "5de6",
-      "name": "Saidazim",
-      "phone": 777777777,
-      "password": "Forger123",
-      "isAdmin": false
-    },
-    {
-      "id": "d965",
-      "name": "Aziz",
-      "phone": 999999999,
-      "password": "TupoyVolk",
-      "isAdmin": false
     },
     {
       "id": "0c1c",
@@ -97,6 +94,13 @@
       "phone": 933150342,
       "password": "Forger123",
       "isAdmin": true
+    },
+    {
+      "id": "85eb",
+      "name": "Mitsuri",
+      "phone": 990033333,
+      "password": "Mitsuri123",
+      "isAdmin": false
     }
   ]
 }

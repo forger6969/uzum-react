@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react'
+import axios from 'axios'
 
 import logo from '../assets/uzumADMIN_LOGO.png'
 import close from '../assets/close.svg'
@@ -35,17 +36,13 @@ const AdminPanelModal = ({ modal, setModal }) => {
         try {
             if (uzbName !== '' && rusName !== '' && uzbCat !== '' && rusCat !== '' && price !== '' && img !== '') {
 
-                const data = await fetch(`http://localhost:3001/products`, {
-                    method: 'POST',
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                        category_uz: uzbCat,
-                        category_ru: rusCat,
-                        name_uz: uzbName,
-                        name_ru: rusName,
-                        price: +price,
-                        image_url: img
-                    })
+                const post = await axios.post('http://localhost:3001/products', {
+                    category_uz: uzbCat,
+                    category_ru: rusCat,
+                    name_uz: uzbName,
+                    name_ru: rusName,
+                    price: +price,
+                    image_url: img
                 })
 
                 setUzbName(``)
@@ -74,10 +71,7 @@ const AdminPanelModal = ({ modal, setModal }) => {
         try {
 
             if (pass === user.password) {
-
-                const data = fetch(`http://localhost:3001/products/${id}`, {
-                    method: 'DELETE'
-                })
+                const data = axios.delete(`http://localhost:3001/products/${id}`)
                 console.log(id);
                 setId('')
                 setPass('')
@@ -93,9 +87,7 @@ const AdminPanelModal = ({ modal, setModal }) => {
 
             if (user.password === blockPass) {
 
-                const data = await fetch(`http://localhost:3001/users/${userID}`, {
-                    method: `DELETE`
-                })
+                const data = await axios.delete(`http://localhost:3001/users/${userID}`)
                 setBlockPass('')
                 setUserID('')
             }
@@ -257,8 +249,6 @@ const AdminPanelModal = ({ modal, setModal }) => {
 
                         >{isUzb ? "Bloklash" : "Забанить"}</button>
                     </div>
-
-
                 }
             </div>
 
