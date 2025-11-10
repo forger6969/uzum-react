@@ -83,11 +83,11 @@ const CityModal = ({ setModal, modal, setCity }) => {
     }
 
     return (
-        <div>
+        <div>   
 
             <div className='bg-[#00000080] h-full w-full fixed top-0 left-0 z-[40]'>
 
-                <div className='modal bg-white fixed left-[400px] top-[100px] max-h-[460px] rounded-[8px] p-[32px] w-[664px] flex flex-col gap-[20px]'>
+                <div className='modal  bg-white fixed left-[400px] top-[100px] max-h-[460px] rounded-[8px] p-[32px] w-[664px] flex flex-col gap-[20px]'>
 
                     <div className='flex justify-between items-center '>
                         <p className='text-[25px] font-bold'>{isUzb ? "Shaharni tanlang" : "Выберете город"}</p>

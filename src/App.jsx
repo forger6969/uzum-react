@@ -2,9 +2,10 @@ import React, { useState, useEffect } from 'react'
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom'
 
 import { AppContext } from './AppContext'
+import HomePage from './Pages/HomePage'
 import StatusBar from './Components/StatusBar'
 import Nav from './Components/Nav'
-import HomePage from './Pages/HomePage'
+import CartPage from './Pages/CartPage'
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
   const [isUzb, setLang] = useState(true)
   const [auth, setAuth] = useState({})
   const [cartArr, setCart] = useState(getCart || [])
+  const [filter, setFilter] = useState('')
 
   useEffect(() => {
     if (localStorage.getItem(`currentUser`)) {
@@ -40,7 +42,13 @@ const App = () => {
       }}>
         <BrowserRouter>
 
-          <HomePage />
+          <StatusBar />
+          <Nav setFilter={setFilter} />
+
+          <Routes>
+            <Route path='/' element={<HomePage filter={filter} />} />
+            <Route path='/CartPage' element={<CartPage />} />
+          </Routes>
 
         </BrowserRouter>
       </AppContext.Provider>

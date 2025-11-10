@@ -10,15 +10,15 @@ import AdminPanel from '../Components/AdminPanel'
 
 import { AppContext } from '../AppContext'
 
-const HomePage = () => {
+const HomePage = ({ filter }) => {
 
-    const { auth } = useContext(AppContext)
+    const { auth, language } = useContext(AppContext)
     const { user } = auth
     const { isAdmin } = user
+    const { isUzb } = language
 
     const [fetchProd, setFetch] = useState([])
     const [filtered, setFiltered] = useState([])
-    const [filter, setFilter] = useState('')
 
     const [showSwiper, setSwiper] = useState(true)
 
@@ -46,16 +46,17 @@ const HomePage = () => {
             setFiltered(filtered)
             setSwiper(false)
         }
+
     }, [filter, fetchProd])
 
     useEffect(() => {
         getProd()
+        document.title = isUzb ? `Uzum Market - Ozbekistondagi milliy marketpleys` : "Uzum Market - Национальный маректплейс Узбекистана"
     }, [])
     return (
         <>
 
-            <StatusBar />
-            <Nav setFilter={setFilter} />
+
             {showSwiper && <HomeSwiper />}
             {showSwiper && <Category set={setFiltered} prod={fetchProd} />}
             <Cards products={filtered} />

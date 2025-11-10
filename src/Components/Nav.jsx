@@ -35,7 +35,9 @@ const Nav = ({ setFilter }) => {
             <div className="px-[150px] mx-auto">
                 <div className='flex justify-between items-center pt-[30px]'>
 
-                    <img className='w-[200px]' src={logo} alt="" />
+                    <Link to="/">
+                        <img className='w-[200px]' src={logo} alt="" />
+                    </Link>
 
                     <div className='flex items-center gap-[20px] pl-[10px]'>
                         <button className='bg-[#e5e5ff] py-[8px] px-[20px] rounded text-[#7000ff] flex items-center gap-[10px] transition-all cursor-pointer hover:bg-[#d3d3fe]'><img className='w-[15px]' src={catalogSVG} alt="" /> {isUzb ? "Katalog" : "Каталог"}</button>
@@ -46,7 +48,7 @@ const Nav = ({ setFilter }) => {
                     <div className='flex items-center gap-[10px] pl-[5px]'>
                         <button onClick={() => setModal(true)} className='font-medium px-[15px] py-[5px] transition-all hover:bg-[#d8d6d6] rounded text-[17px] flex items-center gap-[10px]'> <img className='w-[20px]' src={isAdmin ? adminAva : userSVG} alt="" /> {user.name || vxodPerevod}</button>
                         <Link className='font-medium w-fit py-[5px] transition-all hover:bg-[#d8d6d6] rounded text-[17px] flex items-center gap-[10px]'><img className='w-[20px]' src={heartSVG} alt="" /> {isUzb ? "Saralangan" : "Избранное"}</Link>
-                        <button className='font-medium px-[15px] py-[5px] transition-all hover:bg-[#d8d6d6] rounded text-[17px] flex items-center gap-[10px]'> <img className='w-[20px]' src={basketSVG} alt="" /> {isUzb ? "Savat" : "Корзина"} <span className='bg-[#7000ff] rounded text-white px-[5px]'>{cartArray.length}</span></button>
+                        <Link to="/CartPage" className='font-medium px-[15px] py-[5px] transition-all hover:bg-[#d8d6d6] rounded text-[17px] flex items-center gap-[10px]'> <img className='w-[20px]' src={basketSVG} alt="" /> {isUzb ? "Savat" : "Корзина"} <span className='bg-[#7000ff] rounded text-white px-[5px]'>{cartArray.length}</span></Link>
                     </div>
                 </div>
 
