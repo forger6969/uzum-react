@@ -120,12 +120,12 @@ const Cards = ({ products }) => {
 
                                 <div className='flex items-center gap-[10px]'>
 
-                                    {isCart[i] ? <div className='border-[1px] border-[#36374014] rounded flex justify-around p-[5px] items-center'>
-                                        <button className='text-[18px]' onClick={() => minusCart(i)}>-</button>
+                                    {isCart[i] ? <div className='border-[1px] border-[#36374014] rounded flex justify-around p-[5px] items-center w-full'>
+                                        <button className='text-[18px] text-black' onClick={() => minusCart(i)}>-</button>
                                         <p className='text-[#7f4dff] text-[17px]'>{find.count}</p>
-                                        <button className='text-[18px]' onClick={() => isCartClick(i)}>+</button>
+                                        <button className='text-[18px] text-black' onClick={() => isCartClick(i)}>+</button>
                                     </div> :
-                                        <button onClick={() => indexClick(i)} className='h-[32px] w-full rounded-[8px] bg-[#7f4dff] flex items-center justify-center gap-[3px] text-white cursor-pointer'><img className='w-[20px] fill-white' src={basketSVG} alt="" /> {isUzb ? "Korzinaga" : "В корзину"}</button>
+                                        <button onClick={() => indexClick(i)} className='h-[32px] w-full rounded-[8px] bg-[#7f4dff] flex items-center justify-center gap-[3px] text-white cursor-pointer'><img className='w-[20px] fill-white' src={basketSVG} alt="" /></button>
                                     } <button onClick={() => transitionAbout(m.id)} className='bg-[#7f4dff] h-[32px] px-[5px] text-white rounded-[8px]'>{isUzb ? "Batafsil" : "Подробнее"}</button>
 
                                 </div>
