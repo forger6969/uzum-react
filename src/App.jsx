@@ -7,6 +7,7 @@ import StatusBar from './Components/StatusBar'
 import Nav from './Components/Nav'
 import CartPage from './Pages/CartPage'
 import ProductAbout from './Pages/ProductAbout'
+import NotFoundPage from './Pages/NotFoundPage'
 
 const App = () => {
 
@@ -50,6 +51,7 @@ const App = () => {
             <Route path='/' element={<HomePage filter={filter} />} />
             <Route path='/CartPage' element={<CartPage />} />
             <Route path='/ProductAbout/:id' element={<ProductAbout />} />
+            <Route path='*' element={<NotFoundPage />} />
           </Routes>
 
         </BrowserRouter>
