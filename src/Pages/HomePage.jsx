@@ -26,7 +26,7 @@ const HomePage = ({ filter }) => {
 
     const getProd = async () => {
         try {
-            const data = await axios.get(`http://localhost:3001/products`)
+            const data = await axios.get(`https://react-json-server-4.onrender.com/products`)
             console.log(data.data);
 
             setFetch(data.data)

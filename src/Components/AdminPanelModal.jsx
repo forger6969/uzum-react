@@ -36,7 +36,7 @@ const AdminPanelModal = ({ modal, setModal }) => {
         try {
             if (uzbName !== '' && rusName !== '' && uzbCat !== '' && rusCat !== '' && price !== '' && img !== '') {
 
-                const post = await axios.post('http://localhost:3001/products', {
+                const post = await axios.post('https://react-json-server-4.onrender.com/products', {
                     category_uz: uzbCat,
                     category_ru: rusCat,
                     name_uz: uzbName,
@@ -71,7 +71,7 @@ const AdminPanelModal = ({ modal, setModal }) => {
         try {
 
             if (pass === user.password) {
-                const data = axios.delete(`http://localhost:3001/products/${id}`)
+                const data = axios.delete(`https://react-json-server-4.onrender.com/products/${id}`)
                 console.log(id);
                 setId('')
                 setPass('')
@@ -87,7 +87,7 @@ const AdminPanelModal = ({ modal, setModal }) => {
 
             if (user.password === blockPass) {
 
-                const data = await axios.delete(`http://localhost:3001/users/${userID}`)
+                const data = await axios.delete(`https://react-json-server-4.onrender.com/users/${userID}`)
                 setBlockPass('')
                 setUserID('')
             }

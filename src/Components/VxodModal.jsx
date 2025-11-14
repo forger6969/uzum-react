@@ -31,7 +31,7 @@ const VxodModal = ({ setModal }) => {
 
     async function getUsers() {
         try {
-            const data = await axios.get('http://localhost:3001/users')
+            const data = await axios.get('https://react-json-server-4.onrender.com/users')
 
             setFetch(data.data)
             console.log(data.data);
@@ -44,7 +44,7 @@ const VxodModal = ({ setModal }) => {
 
     const postNewUser = async () => {
         const newPhoneClear = +newPhone.replace(/\D/g, '')
-        const post = await axios.post(`http://localhost:3001/users`, {
+        const post = await axios.post(`https://react-json-server-4.onrender.com/users`, {
             name: newName,
             phone: newPhoneClear,
             password: newPassword,

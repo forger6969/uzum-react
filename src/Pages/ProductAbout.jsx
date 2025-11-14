@@ -17,7 +17,7 @@ const ProductAbout = () => {
     const getprods = async () => {
         try {
 
-            const data = await axios.get(`http://localhost:3001/products/${id}`)
+            const data = await axios.get(`https://react-json-server-4.onrender.com/products/${id}`)
             console.log(data.data);
             setProd(data.data)
 
