@@ -2,6 +2,7 @@ import React, { startTransition, useContext, useEffect, useState } from 'react'
 import basketSVG from '../assets/basketwhite.svg'
 
 import { AppContext } from '../AppContext'
+import { useNavigate } from 'react-router-dom'
 
 
 const Cards = ({ products }) => {
@@ -11,6 +12,7 @@ const Cards = ({ products }) => {
     const { setCart, cartArray } = cart
     const [isCart, setIsCart] = useState([])
     const [browserStorage, setStorage] = useState([])
+    const navigate = useNavigate()
 
 
     const indexClick = (e) => {
@@ -73,6 +75,10 @@ const Cards = ({ products }) => {
         }
     }
 
+    const transitionAbout = (e) => {
+        navigate(`/ProductAbout/${e}`)
+    }
+
     useEffect(() => {
         const storage = JSON.parse(localStorage.getItem(`productBasket`)) || []
         console.log(storage);
@@ -112,13 +118,17 @@ const Cards = ({ products }) => {
                                 <p className='bg-[#ffff00] px-[4px] py-[1px] w-fit text-[11px] rounded'>{rass.toLocaleString()} {isUzb ? "so'm/oyiga" : "сум/месяц"}</p>
                                 <p className='text-[12px] w-full select-none'>{isUzb ? m.name_uz : m.name_ru}</p>
 
-                                {isCart[i] ? <div className='border-[1px] border-[#36374014] rounded flex justify-around p-[5px] items-center'>
-                                    <button className='text-[18px]' onClick={() => minusCart(i)}>-</button>
-                                    <p className='text-[#7f4dff] text-[17px]'>{find.count}</p>
-                                    <button className='text-[18px]' onClick={() => isCartClick(i)}>+</button>
-                                </div> :
-                                    <button onClick={() => indexClick(i)} className='h-[32px] w-full rounded-[8px] bg-[#7f4dff] flex items-center justify-center gap-[3px] text-white cursor-pointer'><img className='w-[20px] fill-white' src={basketSVG} alt="" /> {isUzb ? "Korzinaga" : "В корзину"}</button>
-                                }
+                                <div className='flex items-center gap-[10px]'>
+
+                                    {isCart[i] ? <div className='border-[1px] border-[#36374014] rounded flex justify-around p-[5px] items-center'>
+                                        <button className='text-[18px]' onClick={() => minusCart(i)}>-</button>
+                                        <p className='text-[#7f4dff] text-[17px]'>{find.count}</p>
+                                        <button className='text-[18px]' onClick={() => isCartClick(i)}>+</button>
+                                    </div> :
+                                        <button onClick={() => indexClick(i)} className='h-[32px] w-full rounded-[8px] bg-[#7f4dff] flex items-center justify-center gap-[3px] text-white cursor-pointer'><img className='w-[20px] fill-white' src={basketSVG} alt="" /> {isUzb ? "Korzinaga" : "В корзину"}</button>
+                                    } <button onClick={() => transitionAbout(m.id)} className='bg-[#7f4dff] h-[32px] px-[5px] text-white rounded-[8px]'>{isUzb ? "Batafsil" : "Подробнее"}</button>
+
+                                </div>
 
                             </div>
 

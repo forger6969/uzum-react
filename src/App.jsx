@@ -6,6 +6,7 @@ import HomePage from './Pages/HomePage'
 import StatusBar from './Components/StatusBar'
 import Nav from './Components/Nav'
 import CartPage from './Pages/CartPage'
+import ProductAbout from './Pages/ProductAbout'
 
 const App = () => {
 
@@ -48,6 +49,7 @@ const App = () => {
           <Routes>
             <Route path='/' element={<HomePage filter={filter} />} />
             <Route path='/CartPage' element={<CartPage />} />
+            <Route path='/ProductAbout/:id' element={<ProductAbout />} />
           </Routes>
 
         </BrowserRouter>
